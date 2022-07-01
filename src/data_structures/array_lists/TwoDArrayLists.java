@@ -1,4 +1,4 @@
-package data_structures;
+package data_structures.array_lists;
 import java.util.*;
 
 public class TwoDArrayLists {
