@@ -35,8 +35,11 @@ public class WrapperClass {
 
         //unboxing. so you can treat reference data types as if they
         //were primitive data types
-        if(c == 123) {
-            System.out.println("This is true");
-        }
+        if(a==true) {System.out.println(true);}
+        if(b=='@') {System.out.println("b works!");}
+        if(c==140) {System.out.println("c = 140!");}
+        if(d==3.14) {System.out.println("d is Pi!");}
+        if(e=="Aryan") {System.out.println("e is your name!");}
+        
     }
 }

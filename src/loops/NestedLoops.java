@@ -15,6 +15,7 @@ public class NestedLoops {
         columns = scanner.nextInt();
         System.out.println("Enter symbol to use: ");
         symbol = scanner.next();
+        scanner.close();
 
         for(int i = 1; i <= rows; i++) {
             System.out.println();

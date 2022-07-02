@@ -3,7 +3,7 @@ package data_structures;
 public class Array {
     public static void main(String[] args) {
         //Array = A data structure that stores a collection of similar values
-        // in contiguous memory locations.
+        // in predefined storage capacities
 
         String[] cars = {"Camaro","Corvette","Tesla","BMW"};
         String[] vehicles = new String[3];
