@@ -1,4 +1,4 @@
-package useful_classes;
+package simple_basics;
 
 public class PrintF {
 	public static void main(String[] args) {
