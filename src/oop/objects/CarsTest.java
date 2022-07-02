@@ -14,7 +14,9 @@ public class CarsTest {
 		myCar1.drive();
 		myCar1.brake();
 		System.out.println();
-		System.out.printf("Your %s %s %s was made in %d and costs $%,.0f \n",myCar2.getColor(),myCar2.getCompany(),myCar2.getModel(),myCar2.getYear(),myCar2.getPrice());
+		System.out.printf("Your %s %s %s was made in %d and costs $%,.0f \n",
+				myCar2.getColor(),myCar2.getCompany(),myCar2.getModel(),myCar2.getYear(),
+				myCar2.getPrice());
 		System.out.println("It is "+myCar2.getColor());
 		myCar2.drive();
 		myCar2.brake();
