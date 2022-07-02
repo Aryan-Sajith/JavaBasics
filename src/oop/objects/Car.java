@@ -1,7 +1,7 @@
 package oop.objects;
 
 public class Car {
-	//attributes of our class
+	//attributes of our class...keep private to protect access to object attributes
 	private String company, model, color;
 	private int year;
 	private double price;
@@ -25,7 +25,8 @@ public class Car {
 		System.out.printf("Your have stopped driving your %s %s %s",color,company,model);
 		System.out.println();
 	}
-
+	
+	//getters to access instance variables
 	public String getCompany() {
 		return company;
 	}
