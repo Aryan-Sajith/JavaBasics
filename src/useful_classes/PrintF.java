@@ -30,7 +30,6 @@ public class PrintF {
 		// , : comma grouping separator if numbers > 1000
 		// + : output a plus(+) or minus(-) sign for a numeric value
 		// 0 : numeric values are zero-padded
-		System.out.printf("The number pi is %,f",myDouble);
-		
+		System.out.printf("The number pi is %,f",myDouble);	
 	}
 }
