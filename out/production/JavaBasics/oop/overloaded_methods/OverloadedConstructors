@@ -1,3 +1,0 @@
-Definition: Overloaded Constructors have the same name but different parameters.
-Name + Parameters = Constructor Signature.
-Constructors must have unique signatures.
