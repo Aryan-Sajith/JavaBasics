@@ -1,4 +1,4 @@
-package data_structures;
+package data_structures.arrays;
 
 public class Array {
     public static void main(String[] args) {
