@@ -9,14 +9,14 @@ public class ShapesTester {
         // child/subclass = the one that inherits properties using "extends"
         // keyword.
 
-        Rectangle rectangle = new Rectangle(10,23,10,23);
+        Rectangle rectangle = new Rectangle(37,49);
         System.out.println(rectangle.Perimeter());
         System.out.println(rectangle.Area());
-        System.out.println(rectangle.allSidesEqual);
+        System.out.println(rectangle.isAllSidesEqual());
         System.out.println();
-        Square square = new Square(23,23,23,23);
+        Square square = new Square(69);
         System.out.println(square.Perimeter());
         System.out.println(square.Area());
-        System.out.println(square.allSidesEqual);
+        System.out.println(square.isAllSidesEqual());
     }
 }
