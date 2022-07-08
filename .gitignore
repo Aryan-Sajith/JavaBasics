@@ -23,3 +23,12 @@
 hs_err_pid*
 /bin/
 /JavaBasics.iml
+
+# Default ignored files
+/shelf/
+/workspace.xml
+
+# Extra files to ignore based on IntelliJ IDEA
+*.xml
+*.iml
+
