@@ -1,0 +1,12 @@
+No modifier(default) = Allows variables/methods to be accessible by anything
+within the same package --> Look at Class C for Init, ASub for Exec.
+
+public = Allows variables/methods to be accessible by any package within
+the same project folder --> Look at Class C for Init, A for Exec.
+
+protected = Allows variables/methods to be accessible by another package and
+another class in the project if said class is a subclass of the class where the
+protected entity appears --> Look at Class A for Init, ASub for Exec.
+
+private = Allows variables/methods to be accessible by only the class where
+the message is defined --> Look at Class C for Init and Exec.
