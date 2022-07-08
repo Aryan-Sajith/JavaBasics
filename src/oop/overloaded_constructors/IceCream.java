@@ -1,4 +1,4 @@
-package oop.overloaded_methods;
+package oop.overloaded_constructors;
 
 public class IceCream {
     private String flavor = "Chocolate";

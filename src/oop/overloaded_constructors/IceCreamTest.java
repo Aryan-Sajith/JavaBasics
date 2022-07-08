@@ -1,4 +1,4 @@
-package oop.overloaded_methods;
+package oop.overloaded_constructors;
 
 import java.util.Scanner;
 
