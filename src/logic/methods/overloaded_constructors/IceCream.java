@@ -1,4 +1,4 @@
-package oop.overloaded_constructors;
+package logic.methods.overloaded_constructors;
 
 public class IceCream {
     private String flavor = "Chocolate";

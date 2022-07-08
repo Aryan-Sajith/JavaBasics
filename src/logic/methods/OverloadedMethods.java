@@ -1,4 +1,4 @@
-package oop;
+package logic.methods;
 
 public class OverloadedMethods {
 

@@ -1,4 +1,4 @@
-package logic;
+package logic.methods;
 
 public class Methods {
 	public static void main(String[] args) {
