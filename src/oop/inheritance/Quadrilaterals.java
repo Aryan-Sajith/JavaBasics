@@ -13,8 +13,6 @@ public class Quadrilaterals {
         this.side4 = side4;
     }
 
-    public double Area() {
-        return side1*side2;
-    }
+    public double Area() {return side1*side2;}
     public double Perimeter() {return side1+side2+side3+side4;}
 }
