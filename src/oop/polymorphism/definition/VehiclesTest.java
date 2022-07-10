@@ -1,4 +1,4 @@
-package oop.polymorphism;
+package oop.polymorphism.definition;
 
 public class VehiclesTest {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package oop.polymorphism;
+package oop.polymorphism.definition;
 
 public interface Vehicle {
     public void go();
