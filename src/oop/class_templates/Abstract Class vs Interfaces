@@ -1,0 +1,16 @@
+1) Abstract Class = Usually contains at least one abstract method.
+2) Cannot instantiate.
+3) Use when a mixture of general defined methods and unique
+   abstract methods are needed.
+   a) Example: Take a look at the abstract_keyword section. All animals
+   sleep(general defined method) but eating is based on
+   diet(unique abstract method).
+4) Subclasses can only extend one superclass.
+
+
+1) Interface = Only contains abstract methods.
+2) Cannot instantiate.
+3) Use when purely unique abstract methods are commonly shared amongst subclasses.
+    a) Example: Take a look at the Hunter/Prey interfaces. All predators
+    hunt(shared abstract method). All prey flee(shared abstract method)
+4) Subclasses can implement multiple Interfaces.
