@@ -1,4 +1,4 @@
-package oop.objects;
+package oop.objects.basics;
 
 public class CarsTest {
 	public static void main(String[] args) {

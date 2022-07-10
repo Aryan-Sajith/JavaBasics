@@ -1,4 +1,4 @@
-package oop.objects;
+package oop.objects.basics;
 
 public class Car {
 	//attributes of our class...keep private to protect access to object attributes
