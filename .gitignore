@@ -40,3 +40,4 @@ hs_err_pid*
 /workspace.xml
 /.idea/.gitignore
 /out/production/JavaBasics/oop/class_templates/Abstract Class vs Interfaces
+/out/production/JavaBasics/logic/exception_handling/Exception Handling
