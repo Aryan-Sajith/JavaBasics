@@ -1,0 +1,8 @@
+Exceptions: An event that occurs during the execution of a program that disrupts
+the flow of logic.
+
+Use try {} to test potentially exceptional code and catch() {} to catch specific
+types of exceptions and respond appropriately. Lastly, use catch(Exception e) to
+handle any potentially forgotten exceptions.
+
+The finally{} block is useful to close any open scanners/files.
