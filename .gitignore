@@ -32,3 +32,10 @@ hs_err_pid*
 *.xml
 *.iml
 
+/out/production/JavaBasics/simple_basics/access_modifiers/ListOfAccessModifiers
+/out/production/JavaBasics/logic/methods/overloaded_constructors/OverloadedConstructors
+
+# Default ignored files
+/shelf/
+/workspace.xml
+/.idea/.gitignore
