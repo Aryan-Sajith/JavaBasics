@@ -1,4 +1,4 @@
-package useful_classes.file;
+package useful_classes.file.basics;
 import java.io.File;
 
 public class FileClass {
@@ -6,7 +6,7 @@ public class FileClass {
         // File = An abstract representation of a file and directory pathways to access from your program
 
         // Use the file path to create an instance of the file class
-        File file = new File("src/useful_classes/file/secret_document.rtf");
+        File file = new File("src/useful_classes/file/basics/secret_document.rtf");
 
         //file.exists() checks if the file exists or not
         if(file.exists()){
