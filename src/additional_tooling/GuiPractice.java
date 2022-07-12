@@ -1,4 +1,4 @@
-package useful_classes;
+package additional_tooling;
 
 import javax.swing.JOptionPane;
 
