@@ -18,6 +18,7 @@ public class Main {
         Clip clip = AudioSystem.getClip();
         clip.open(audioStream);
 
+        System.out.println("Welcome to the Song Player!");
         //This part handles user responses!
         while(!response.equalsIgnoreCase("q")) {
             System.out.println("p = play, s = stop, r = reset, q = quit");
