@@ -11,7 +11,7 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
         String response = "";
         // We create an AudioInputStream object to get audio input from the music file
-        File file = new File("Song Pathway Here!");
+        File file = new File("/Users/aryansajith/IdeaProjects/JavaBasics/src/additional_tooling/audio_player/Country_Roads.wav");
         AudioInputStream audioStream =  AudioSystem.getAudioInputStream(file);
 
         // We create a Clip object to read the audioStream object we created earlier
