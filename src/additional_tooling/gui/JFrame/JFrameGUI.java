@@ -9,7 +9,7 @@ public class JFrameGUI {
         JFrame frame = new JFrame();
 
         // Creates an image icon
-        ImageIcon image = new ImageIcon("Image Icon Pathway Here!");
+        ImageIcon image = new ImageIcon("/Users/aryansajith/IdeaProjects/JavaBasics/src/additional_tooling/gui/JFrame/Star.jpg");
 
         // Sets up the JFrame
         frame.setTitle("JFrame title here"); // Title
