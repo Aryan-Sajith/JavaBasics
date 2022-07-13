@@ -4,6 +4,7 @@ import javax.swing.*;
 import javax.swing.border.Border;
 import java.awt.*;
 
+// JLabel = A GUI display for a string of text, an image, or both... A COMPONENT
 public class Main {
     public static void main(String[] args) {
         // JLabel = A GUI display for a string of text, an image, or both... A COMPONENT
