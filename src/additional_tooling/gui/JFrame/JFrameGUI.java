@@ -9,7 +9,7 @@ public class JFrameGUI {
         JFrame frame = new JFrame();
 
         // Creates an image icon
-        ImageIcon image = new ImageIcon("src/additional_tooling/gui/JFrame/Air Nomads.webp");
+        ImageIcon image = new ImageIcon("Image Icon Pathway Here!");
 
         // Sets up the JFrame
         frame.setTitle("JFrame title here"); // Title
