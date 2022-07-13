@@ -6,7 +6,7 @@ import java.awt.*;
 public class MyJFrame extends JFrame {
     MyJFrame() {
         // Creates an image icon
-        ImageIcon image = new ImageIcon("src/additional_tooling/gui/JFrame/Air Nomads.webp");
+        ImageIcon image = new ImageIcon("Image Icon Pathway Here!");
 
         // Sets up the JFrame
         this.setTitle("JFrame title here"); // Title

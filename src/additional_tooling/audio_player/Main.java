@@ -11,7 +11,7 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
         String response = "";
         // We create an AudioInputStream object to get audio input from the music file
-        File file = new File("src/additional_tooling/audio_player/Country_Roads.wav");
+        File file = new File("Song Pathway Here!");
         AudioInputStream audioStream =  AudioSystem.getAudioInputStream(file);
 
         // We create a Clip object to read the audioStream object we created earlier
@@ -19,7 +19,6 @@ public class Main {
         clip.open(audioStream);
 
         //This part handles user responses!
-        System.out.println("Today's music is Country Roads by John Denver ");
         while(!response.equalsIgnoreCase("q")) {
             System.out.println("p = play, s = stop, r = reset, q = quit");
             System.out.print("Enter your choice: ");
