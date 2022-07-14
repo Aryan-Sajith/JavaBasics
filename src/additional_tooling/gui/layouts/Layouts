@@ -1,0 +1,18 @@
+Layout Manager= Defines the natural layout for components within a container
+
+3 Common Layout Managers:
+
+    1: BorderLayout = A layout manager that places components in five areas:NORTH,SOUTH,WEST,EAST,CENTER
+       *  A JFrame uses BorderLayout by default!
+       *  Uses: Distinct areas for titles, scroll bar, footer and main content... Use if clear and distinct
+                 areas of GUI are essential.
+      
+    2: FlowLayout = Places components in a row with their preferred size. If row spaced is used up, then
+       the next row is utilized
+       *  A JPanel uses FlowLayout by default!
+       *  Uses: Numpad, Alphabets, etc. where things line up horizontally
+
+    3: GridLayout = Places components in a grid of equal-sized cells and components take up all the space
+       within each cell
+       *  A JPanel uses FlowLayout by default!
+       *  Uses: TickTacToe, Dungeon Crawler, Calculator, etc.
