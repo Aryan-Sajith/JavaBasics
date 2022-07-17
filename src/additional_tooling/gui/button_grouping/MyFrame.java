@@ -9,10 +9,18 @@ public class MyFrame extends JFrame implements ActionListener {
     JRadioButton pizzaButton, hamburgerButton, hotdogButton;
 
     public MyFrame() {
-        // Defines a few JRadioButtons
+        // Defines a few ImageIcons to add for the JRadioButtons
+        ImageIcon pizzaIcon = new ImageIcon("/Users/aryansajith/IdeaProjects/JavaBasics/src/additional_tooling/gui/button_grouping/Pizza.png");
+        ImageIcon hamburgerIcon = new ImageIcon("/Users/aryansajith/IdeaProjects/JavaBasics/src/additional_tooling/gui/button_grouping/Hamburger.png");
+        ImageIcon hotdogIcon = new ImageIcon("/Users/aryansajith/IdeaProjects/JavaBasics/src/additional_tooling/gui/button_grouping/Hotdog.png");
+
+        // Defines a few JRadioButtons and their icons
         pizzaButton = new JRadioButton("pizza");
         hamburgerButton = new JRadioButton("hamburger");
         hotdogButton = new JRadioButton("hotdog");
+        pizzaButton.setIcon(pizzaIcon);
+        hamburgerButton.setIcon(hamburgerIcon);
+        hotdogButton.setIcon(hotdogIcon);
 
         // Defines a grouping so only one can be clicked!
         ButtonGroup group = new ButtonGroup();
