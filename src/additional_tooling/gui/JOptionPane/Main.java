@@ -21,9 +21,9 @@ public class Main {
 
         // This combines all previous options into one method!
         String[] responses = {"Unfortunately not ;(", "You're the best!","Thanks a ton!"};
-        ImageIcon icon = new ImageIcon("/Users/aryansajith/IdeaProjects/JavaBasics/src/additional_tooling/gui/JOptionPane/Smiley.jpeg");
+        ImageIcon imageIcon = new ImageIcon("/Users/aryansajith/IdeaProjects/JavaBasics/src/additional_tooling/gui/JOptionPane/Smiley.jpeg");
         JOptionPane.showOptionDialog(null,"You're the best!",
                 "Secret Message",JOptionPane.YES_NO_CANCEL_OPTION,JOptionPane.INFORMATION_MESSAGE,
-                icon,responses,1);
+                imageIcon,responses,1);
     }
 }

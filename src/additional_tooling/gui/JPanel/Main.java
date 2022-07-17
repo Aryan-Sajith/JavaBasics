@@ -13,19 +13,19 @@ public class Main {
 
 
         // JLabel component to add to the red panel!
-        JLabel label = new JLabel();
-        label.setText("Hi");
-        label.setIcon(icon);
-        //label.setVerticalAlignment(JLabel.TOP);
-        //label.setHorizontalAlignment(JLabel.RIGHT);
-        label.setBounds(0,0,250,250);
+        JLabel jLabel = new JLabel();
+        jLabel.setText("Hi");
+        jLabel.setIcon(icon);
+        //jLabel.setVerticalAlignment(JLabel.TOP);
+        //jLabel.setHorizontalAlignment(JLabel.RIGHT);
+        jLabel.setBounds(0,0,250,250);
 
         // JPanel = A GUI component that acts as a container to hold other components
         JPanel greenPanel = new JPanel();
         greenPanel.setBackground(Color.GREEN); // Panel background
         greenPanel.setBounds(0,0,250,250); // Panel Layout manually defined
         greenPanel.setLayout(null);
-        greenPanel.add(label);
+        greenPanel.add(jLabel);
 
         JPanel redPanel = new JPanel();
         redPanel.setBackground(Color.red); // Panel background
