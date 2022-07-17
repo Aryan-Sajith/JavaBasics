@@ -13,7 +13,7 @@ public class Main {
         JOptionPane.showMessageDialog(null,"Your laptop needs help...","Error",JOptionPane.ERROR_MESSAGE);
         */
 
-        // Asks questions where user can respond with yes/no/cancel buttons that are returned as ints!
+        // Asks questions where user can respond with yes/no/cancel additional_tooling.gui.buttons that are returned as ints!
         // System.out.println(JOptionPane.showConfirmDialog(null,"Aryan, are you a man?","Question",JOptionPane.YES_NO_CANCEL_OPTION));
 
         // Asks questions where user can respond with a string!
