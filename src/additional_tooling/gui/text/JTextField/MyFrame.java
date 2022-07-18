@@ -1,4 +1,4 @@
-package additional_tooling.gui.JTextField;
+package additional_tooling.gui.text.JTextField;
 
 import javax.swing.*;
 import java.awt.*;

@@ -1,4 +1,4 @@
-package additional_tooling.gui.JOptionPane;
+package additional_tooling.gui.text.JOptionPane;
 
 import javax.swing.*;
 
