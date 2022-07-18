@@ -26,6 +26,7 @@ public class SliderDemo implements ChangeListener {
         slider.setMajorTickSpacing(25);
         slider.setOrientation(SwingConstants.VERTICAL);
         slider.setPaintLabels(true); // Adds numbers to the slider
+        slider.setPaintTrack(true); // Makes slider painted
         slider.setFont(new Font("Times New Roman",Font.PLAIN,15));
         slider.addChangeListener(this);
 
