@@ -1,4 +1,4 @@
-package additional_tooling.gui.JCheckBox;
+package additional_tooling.gui.boxes.JCheckBox;
 
 import javax.swing.*;
 import java.awt.*;

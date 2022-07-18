@@ -1,4 +1,4 @@
-package additional_tooling.gui.JButton;
+package additional_tooling.gui.boxes.JButton;
 
 import javax.swing.*;
 import java.awt.*;

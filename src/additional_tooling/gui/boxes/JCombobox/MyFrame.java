@@ -1,4 +1,4 @@
-package additional_tooling.gui.JCombobox;
+package additional_tooling.gui.boxes.JCombobox;
 
 import javax.swing.*;
 import java.awt.*;

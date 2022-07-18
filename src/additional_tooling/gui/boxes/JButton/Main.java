@@ -1,4 +1,4 @@
-package additional_tooling.gui.JButton;
+package additional_tooling.gui.boxes.JButton;
 
 public class Main {
     // JButton = A GUI button that performs an action when clicked on it

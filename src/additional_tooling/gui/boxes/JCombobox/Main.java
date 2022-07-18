@@ -1,4 +1,4 @@
-package additional_tooling.gui.JCombobox;
+package additional_tooling.gui.boxes.JCombobox;
 
 // JComboBox = A component that combines a button/editable field and a drop-down list
 

@@ -1,4 +1,4 @@
-package additional_tooling.gui.button_grouping;
+package additional_tooling.gui.boxes.button_grouping;
 
 import javax.swing.*;
 import java.awt.*;
