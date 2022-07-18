@@ -17,8 +17,7 @@ public class ProgressBarDemo {
         // JFrame setup
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.pack();
-        frame.setLocationRelativeTo(null);
-        frame.setLayout(new FlowLayout());
+        frame.setLayout(null);
         frame.setVisible(true);
 
         fill();
