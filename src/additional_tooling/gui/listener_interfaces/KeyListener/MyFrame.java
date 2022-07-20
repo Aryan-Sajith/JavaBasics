@@ -1,7 +1,6 @@
-package additional_tooling.gui.essentials.KeyListener;
+package additional_tooling.gui.listener_interfaces.KeyListener;
 
 import javax.swing.*;
-import java.awt.*;
 import java.awt.event.KeyEvent;
 import java.awt.event.KeyListener;
 
@@ -11,8 +10,8 @@ public class MyFrame extends JFrame implements KeyListener {
 
     public MyFrame() {
         // ImageIcons setup
-        lionImage = new ImageIcon("/Users/aryansajith/IdeaProjects/JavaBasics/src/additional_tooling/gui/essentials/KeyListener/Lion.png");
-        backgroundImage = new ImageIcon("/Users/aryansajith/IdeaProjects/JavaBasics/src/additional_tooling/gui/essentials/KeyListener/Forest.png");
+        lionImage = new ImageIcon("/Users/aryansajith/IdeaProjects/JavaBasics/src/additional_tooling/gui/listener_interfaces/KeyListener/Lion.png");
+        backgroundImage = new ImageIcon("/Users/aryansajith/IdeaProjects/JavaBasics/src/additional_tooling/gui/listener_interfaces/KeyListener/Forest.png");
 
         // JLabels setup
         lionLabel = new JLabel();
