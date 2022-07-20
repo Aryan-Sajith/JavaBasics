@@ -1,0 +1,8 @@
+Generics: Enable types(classes and interfaces) to be parameters when defining:
+Classes, Interfaces, and methods.
+
+Benefit: Eliminates the need to create multiple versions of methods/classes for various reference
+data types
+
+Bounded Types = Requiring objects of a generic class to have data of specific derived types
+Example: Number... -> public class <T extends Number> MyClass {}
