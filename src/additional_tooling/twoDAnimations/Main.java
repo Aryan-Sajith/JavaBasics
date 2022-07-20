@@ -1,7 +1,7 @@
-package additional_tooling.two_d_graphics;
+package additional_tooling.twoDAnimations;
 
 public class Main {
     public static void main(String[] args) {
-        new MyFrame();
+         new MyFrame();
     }
 }

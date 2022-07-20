@@ -1,4 +1,4 @@
-package additional_tooling.two_d_graphics;
+package additional_tooling.twoDGraphics;
 
 import javax.swing.*;
 import java.awt.*;
