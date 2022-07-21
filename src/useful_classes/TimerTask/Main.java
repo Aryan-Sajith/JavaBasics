@@ -1,6 +1,6 @@
 package useful_classes.TimerTask;
 
-// Thread = The path followed when executing a program
+// Thread = A thread of execution in a program
 
 // Timer = A facility for threads to schedule tasks for future execution in a background thread
 
