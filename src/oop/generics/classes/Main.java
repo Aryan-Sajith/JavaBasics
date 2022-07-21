@@ -1,4 +1,4 @@
-package logic.generics.classes;
+package oop.generics.classes;
 
 public class Main {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package logic.generics.classes;
+package oop.generics.classes;
 
 public class MyGenericClass <Thing extends Number, Thing2 extends Number> {
     Thing t1;
