@@ -1,0 +1,28 @@
+Serialization = The process of converting an object into a byte stream
+(As though you are saving a file with the object's information)
+
+Why:
+1) The objects state persists after the program exits
+2) Byte stream can be saved as a platform-independent file (.ser)
+3) Byte stream can be sent over the internet
+
+Steps:
+1) The object class should implement Serializable interface
+2) Create a FileOutputStream instance fileOut with parameter(Pathway of where to store serialized object)
+3) Create ObjectOutputStream instance out with parameter(FileOutputStream instance)
+4) Write the object into the file --> out.writeObject(objectName)
+5) Close the OutputStreams --> out.close(); fileOut.close();
+
+Deserialization = The reverse process of converting a byte stream into an object
+(As though you are reading a file with the object's information)
+
+Why:
+1) Helps interpret the information of the serialized objects
+
+Steps:
+1) The object class should implement Serializable interface
+2) Declare your object(don't instantiate) User user;
+3) Create a FileInputStream instance fileIn with parameter(Pathway of serialized object)
+4) Create a ObjectInputStream instance in with parameter(FileInputStream instance)
+5) Read the object into the declared object from step 2(Type casting required) --> user = (User) in.readObject();
+6) Close the InputStreams --> fileIn.close(); in.close();
