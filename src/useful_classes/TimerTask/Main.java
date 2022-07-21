@@ -13,7 +13,6 @@ import java.util.TimerTask;
 public class Main {
     public static void main(String[] args) {
         Timer timer = new Timer();
-        Calendar date = Calendar.getInstance();
         TimerTask task = new TimerTask() {
             int counter = 10;
             @Override
