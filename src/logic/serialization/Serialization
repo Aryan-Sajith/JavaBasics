@@ -2,7 +2,7 @@ Serialization = The process of converting an object into a byte stream
 (As though you are saving a file with the object's information)
 
 Why:
-1) The objects state persists after the program exits
+1) The object's state persists after the program exits
 2) Byte stream can be saved as a platform-independent file (.ser)
 3) Byte stream can be sent over the internet
 
