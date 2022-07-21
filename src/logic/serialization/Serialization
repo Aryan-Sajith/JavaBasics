@@ -25,4 +25,14 @@ Steps:
 3) Create a FileInputStream instance fileIn with parameter(Pathway of serialized object)
 4) Create a ObjectInputStream instance in with parameter(FileInputStream instance)
 5) Read the object into the declared object from step 2(Type casting required) --> user = (User) in.readObject();
-6) Close the InputStreams --> fileIn.close(); in.close();
+6) Close the InputStreams --> fileIn .close(); in.close();
+
+
+Extra Information:
+1) serialVersionUID is a unique version ID that ensures that serialized/deserialized objects
+   are utilizing consistent class definitions throughout the process.
+       -It is recommended to define your own serialVersionUID when using serialization!
+2) Subclasses of parent classes that implements Serializable will do so as well
+3) Class definitions are not recorded when serializing! --> See Deserializer package for Type Casting
+4) Static fields are not serialized(Class-owned)
+5) Transient fields are not serialized and are ignored(extra protection)

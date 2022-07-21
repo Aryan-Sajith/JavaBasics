@@ -14,6 +14,10 @@ public class Main {
         in.close();
         fileIn.close();
 
+        // Viewing current SerialVersionUID
+        long serialVersionUID = ObjectStreamClass.lookup(user.getClass()).getSerialVersionUID();
+        System.out.println(serialVersionUID);
+
         // Testing properties of deserialized object
         System.out.println("Name: "+user.name);
         System.out.println("Password: "+user.password);
