@@ -1,0 +1,14 @@
+Thread: A path of execution in a java program(like a virtual string)
+
+Info:
+1) Multiple threads can run concurrently
+2) Each thread can execute parts of code in parallel with the main thread
+3) Each thread has an execution priority(Higher > Lower)
+4) Thread Priority : 0 <= p <= 10
+
+In Practice:
+1) JVM continues executing threads until:
+    a) The exit method of class Runtime is called
+    b) All user(non-daemon) threads have died
+2) When JVM starts up, the "main" thread calls the main method
+3) Daemon thread = Low priority thread that runs in background for tasks like garbage collection
