@@ -1,4 +1,4 @@
-Thread: A path of execution in a java program(like a virtual string)
+Thread: A single sequential flow of control within a program(main_method, backup_method, etc.)
 
 Info:
 1) Multiple threads can run concurrently
