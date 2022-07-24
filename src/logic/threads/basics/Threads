@@ -1,4 +1,4 @@
-Thread: A single sequential flow of control within a program(main_method, backup_method, etc.)
+Thread: The smallest singular sequential flow of control within a program(Example: Java Main "Thread")
 
 Info:
 1) Multiple threads can run concurrently
